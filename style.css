@@ -6,3 +6,30 @@
   box-sizing: border-box;
   font-family: 'Inconsolata', monospace;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: url(img.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
